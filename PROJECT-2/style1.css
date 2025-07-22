@@ -1,0 +1,820 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'DM Sans', sans-serif;
+}
+
+/* #######################  UTILITY CLASSES ########################## */
+
+.container{
+    max-width: 1100px;
+    width: 90%;
+    margin: auto;
+}
+
+.container2{
+    max-width: 1300px;
+    width: 93%;
+    margin: auto;
+}
+
+.bg-blue{
+    background-color: #082c4e;
+}
+
+.bg-red{
+    background-color: #ff6571;
+}
+
+.bg-yello{
+    background-color: #ffcc00;
+}
+
+.bg-light-blue{
+    background-color: #21a5e5;
+}
+
+.bg-light-pink{
+    background-color: #f2e9e2;
+}
+
+.bg-purple{
+    background-color: #5718a5;
+}
+.text-white{
+    color: #fafafa;
+}
+
+.text-blue{
+    color: #082c4e;
+}
+
+.text-light-blue{
+    color: #21a5e5;
+}
+.text-yello{
+    color: #ffcc00;
+}
+/* ##################### NAVBAR STYLING ######################### */
+
+                /* #### FOR DESKTOP MOOD ### */
+
+.navbar input[type="checkbox"],
+.navbar .humburger-lines{
+    display: none;
+}
+
+.navbar{
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+}
+
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    height: 64px;
+    align-items: center;
+}
+
+.menu-items{
+    order: 2;
+    display: flex;
+}
+
+.menu-items li{
+    list-style: none;
+    margin-left: 5rem;
+    font-size: 2.2rem;
+    font-weight: 500;
+}
+
+.logo{
+    order: 1;
+    font-size: 2.2rem;
+    font-weight: 700;
+}
+
+.navbar a{
+    color: #fafafa;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.navbar li a:hover{
+    border-bottom: 2px solid #e3cd3a;
+}
+
+/* ##################### HEADER STYLING ######################### */
+
+#header{
+    height: 605px;
+    padding: 100px 0;
+}
+
+#header .header-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 80px;
+}
+
+#header .header-text h1{
+    font-size: 6.4rem;
+    font-weight: 400;
+    line-height: 70px;
+    padding-bottom: 20px;
+}
+
+#header .header-text p{
+    font-size: 2.4rem;
+    padding-bottom: 50px;
+}
+
+#header .header-text a{
+    display: inline-block;
+    padding: 1em 2.5em;
+    text-decoration: none;
+    border-radius: 50px;
+    cursor: pointer;
+    outline: none;
+    margin-top: 1em;
+    font-size: 2rem;
+    font-weight: 500;
+    color: #fafafa;
+    border: 2px solid #fafafa;
+}
+
+#header .header-text a:hover{
+    color: #bebbbb;
+}
+
+#header .header-text{
+    flex: 1 1 600px;
+    padding-right: 100px;
+    /* padding: 30px; */
+    /* margin: auto; */
+}
+
+#header .header-img{
+    flex: 1 1 400px;
+    /* padding: 30px; */
+    margin: auto;
+}
+
+#header .header-img img{
+    display: block;
+    height: 300px;
+    max-width: 100%;
+    margin: auto;
+    object-fit: cover;
+    object-position:center;
+}
+
+/* ##################### FEATURES STYLING ######################### */
+
+#features{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#features .container{
+    display: flex;
+}
+#features .container h1{
+    font-size: 6.4rem;
+    margin: 0 auto;
+    padding-bottom: 80px;
+}
+/* #features .container2{
+    border: 2px solid green;
+} */
+
+.box-wrapper .box-items i{
+    color: #082c4e;
+    padding-bottom: 30px;
+}
+
+.box-wrapper .box-items h2{
+    font-size: 2.4rem;
+    font-weight: 500;
+    color: #082c4e;
+    padding-bottom: 20px;
+}
+
+.box-wrapper .box-items p{
+    font-size: 2rem;
+    font-weight: 400;
+    color: #082c4e;
+    padding-bottom: 20px;
+}
+
+.box-wrapper .box-items a{
+    display: inline-block;
+    /* padding: 1em 2.5em; */
+    text-decoration: none;
+    /* border-radius: 50px; */
+    cursor: pointer;
+    outline: none;
+    /* margin-top: 1em; */
+    font-size: 2rem;
+    font-weight: 400;
+    color: #082c4e;
+    /* border: 2px solid #fafafa; */
+}
+
+.box-wrapper .box-items a:hover{
+    border-bottom: 1px solid #082c4e;
+}
+
+#features .box-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.box-wrapper .box-items{
+    /* border: 2px solid pink; */
+    flex-basis: 300px;
+    padding: 50px 30px;
+    margin-bottom: 40px;
+}
+
+/* ##################### EXPLORE STYLING ######################### */
+
+#explore{
+    height: 500px;
+    margin-bottom: 140px;
+    display: flex;
+}
+
+#explore .explore-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin: 0 auto;
+}
+
+#explore .explore-container p{
+    font-size: 5rem;
+    font-weight: 400;
+}
+
+#explore .explore-container a{
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 5rem;
+    font-weight: 400;
+    color: #ffcc00;
+}
+
+#explore a:hover{
+    border-bottom: 2px solid #ffcc00;
+}
+
+/* ##################### VIEW-CASE STYLING ######################### */
+
+#view-case .view-case-items{
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 100px;
+}
+
+.view-case-items .view-case-img{
+    flex: 1 1 200px;
+}
+
+.view-case-items .view-case-text{
+    flex: 1 1 900px;
+}
+
+.view-case-items .view-case-text h2{
+    font-size: 3.2rem;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+
+.view-case-items .view-case-text p{
+    font-size: 2.4rem;
+    padding-bottom: 10px;
+}
+.view-case-items .view-case-text .p1{
+    padding-bottom: 20px;
+}
+
+.view-case-items .view-case-text a{
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 2rem;
+    font-weight: 500;
+    color: #21a5e5;
+}
+
+/* ##################### RESEARCH STYLING ######################### */
+
+#research{
+    height: 700px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.reserch-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.reserch-wrapper .reserch-text{
+    flex: 1 1 500px;
+    padding-right: 50px;
+    margin: auto;
+}
+
+.reserch-text h1{
+    font-size: 6.4rem;
+    font-weight: 400;
+    padding-bottom: 50px;
+}
+
+.reserch-text p{
+    font-size: 2rem;
+    font-weight: 400;
+    padding-bottom: 80px;
+}
+
+.reserch-text a{
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 2rem;
+    font-weight: 500;
+    color: #000;
+}
+
+.reserch-text a:hover{
+    color: #554f4f;
+}
+.reserch-wrapper .reserch-img{
+    flex: 1 1 500px;
+    margin: auto;
+}
+
+.reserch-wrapper .reserch-img img{
+    display: block;
+    height: 450px;
+    max-width: 100%;
+    margin: auto;
+    object-fit: cover;
+    object-position:center;
+}
+
+/* ##################### PROJECT STYLING ######################### */
+
+#project{
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 100px;
+}
+
+.project-text{
+    padding-top: 80px;
+    padding-bottom: 60px;
+}
+
+.project-text h1{
+    font-size: 3.2rem;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+
+.project-text p{
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.project-table{
+    /* width: 100%; */
+    border-top: 1px solid #21a5e5;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.project-table .project-name{
+    font-size: 1.8rem;
+    font-weight: 400;
+    flex-basis: 170px;
+}
+
+.project-table .project-year{
+    font-size: 1.8rem;
+    font-weight: 400;
+    flex-basis: 170px;
+}
+.project-table .project-para{
+    font-size: 1.8rem;
+    flex-basis: 670px;
+}
+
+.project-table .project-icon{
+    /* font-size: 2rem; */
+    flex-basis: 50px;
+    padding-left: 60px;
+}
+
+.project-table5{
+    border-bottom: 1px solid #21a5e5;
+}
+
+/* ##################### PROJECT STYLING ######################### */
+
+#choose{
+    height: 650px;
+    display: flex;
+}
+
+.choose-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.choose-text{
+    width: 500px;
+    height: 100%;
+    margin: auto;
+}
+
+.choose-box-wrapper{
+    width: 500px;
+    height: 100%;
+    margin: auto;
+}
+.choose-text h1{
+    font-size: 6rem;
+    font-weight: 400;
+    padding-bottom: 40px;
+}
+
+.choose-text p{
+    font-size: 2rem;
+    font-weight: 400;
+    padding-bottom: 30px;
+}
+
+.choose-boxs{
+    margin-bottom: 25px;
+    /* border: 1px solid red; */
+    display: flex;
+    /* flex-wrap: wrap; */
+}
+
+.choose-box-text{
+    flex: 1 1 350px;
+    padding: 30px 30px;
+}
+
+.choose-box-text h3{
+    font-size: 2rem;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+
+.choose-box-text p{
+    font-size: 1.6rem;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+
+.choose-box-text a{
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 2rem;
+    font-weight: 400;
+    color: #fafafa;
+}
+
+.choose-box-text a:hover{
+    border-bottom: 1px solid #fafafa;
+}
+.choose-icon{
+    flex: 1 1 100px;
+}
+
+.choose-icon i{
+    padding: 40px 20px;
+}
+
+/* ##################### INNOVATION STYLING ######################### */
+
+#innovation{
+    padding: 100px 0;
+}
+
+.innovation-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.innovation-container h1{
+    font-size: 5rem;
+    padding-bottom: 30px;
+}
+
+.i-c-p1{
+    font-size: 2rem;
+    padding-bottom: 20px;
+}
+
+.i-c-p2{
+    font-size: 2rem;
+    font-weight: bolder;
+    padding-bottom: 20px;
+}
+
+.i-c-p3{
+    font-size: 2rem;
+    padding-bottom: 100px;
+}
+
+.i-c-p4{
+    font-size: 2rem;
+    font-weight: bolder;
+    padding: 35px;
+    border-radius: 20px;
+}
+
+.cliant{
+    padding-top: 50px;
+    display: flex;
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+}
+
+.cliant .cliant-img img{
+    width: 70px;
+    border-radius: 50px;
+}
+
+.cliant .cliant-text{
+    padding-left: 30px;
+}
+
+.cliant .cliant-text .c-t-p1{
+    font-size: 2rem;
+    font-weight: bolder;
+    padding-bottom: 10px;
+}
+
+.cliant .cliant-text .c-t-p2{
+    font-size: 2rem;
+}
+
+/* ##################### HUMANS STYLING ######################### */
+
+#humans .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#humans .container h1{
+    font-size: 5rem;
+    font-weight: 500;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.humans-items img{
+    width: 120px;
+    border-radius: 60px;
+}
+
+.humans-items h3{
+    font-size: 3.2rem;
+    padding-top: 30px;
+}
+
+.humans-items p{
+    font-size: 2rem;
+    font-weight: 700;
+    padding-top: 20px;
+}
+
+.humans-wrapper{
+    max-width: 1100px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 80px 0;
+}
+
+.humans-items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-basis: 250px;
+    padding-bottom: 30px;
+}
+
+/* ##################### CONTACT STYLING ######################### */
+
+#contact{
+    padding: 100px 0;
+}
+
+.contact-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contact-boxs{
+    flex: 1 1 500px;
+    padding: 70px 50px;
+}
+
+.contact-boxs h3{
+    font-size: 2.4rem;
+    padding-bottom: 20px;
+}
+
+.contact-boxs p{
+    font-size: 2rem;
+    padding-bottom: 30px;
+}
+
+.contact-boxs a{
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.contact1 a{
+    color: #000;
+}
+
+.contact2 a{
+    color: #fafafa;
+}
+
+/* ##################### BASE STYLING ######################### */
+
+#base{
+    height: 470px;
+    display: flex;
+}
+
+.base-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.base-icon{
+    flex: 1 1 200px;
+    padding-left: 100px;
+}
+
+.base-text{
+    flex: 1 1 800px;
+}
+
+.base-text h3{
+    font-size: 2rem;
+    padding-bottom: 10px;
+}
+
+.base-text h1{
+    font-size: 3.2rem;
+    padding-bottom: 20px;
+}
+
+.base-text p{
+    font-size: 2rem;
+}
+
+/* ##################### FOOTER STYLING ######################### */
+
+#footer{
+    height: 430px;
+}
+
+#footer li{
+    list-style-type: none;
+    font-size: 2rem;
+    padding-bottom: 10px;
+}
+#footer a{
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 2rem;
+    font-weight: 400;
+    color: #fafafa;
+}
+
+#footer .footer-wrapper1 p{
+    font-size: 2rem;
+}
+
+#footer .footer-wrapper1 i{
+    padding-bottom: 20px;
+}
+
+.footer-wrapper1{
+    padding-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-evenly; */
+    /* align-items: center; */
+    flex-direction: row;
+}
+
+.footer-wrapper1 .f-p1{
+    flex: 1 1 600px;
+    padding-right: 150px;
+    padding-bottom: 5px;
+    /* margin: auto; */
+}
+
+.footer-wrapper1 .f-f1{
+    flex: 1 1 200px;
+    padding-bottom: 55px;
+}
+
+.footer-wrapper1 .f-f2{
+    flex: 1 1 200px;
+    padding-bottom: 5px;
+}
+
+.footer-wrapper1 .f-icon{
+    flex: 1 1 5px;
+    padding-bottom: 5px;
+}
+
+.footer-wrapper2{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.footer-wrapper2 .f2-p{
+    flex-basis: 620px;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.footer-wrapper2 .mail{
+    flex-basis: 350px;
+    font-size: 2rem;
+    font-weight: 700;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #fafafa;
+}
+
+.footer-wrapper2 .mail .label{
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.footer-wrapper2 .mail .input{
+    background-color: transparent;
+    box-shadow: none;
+    border: none;
+    /* border-bottom: 1px solid #fafafa; */
+    width: 100%;
+    height: 30px;
+}
+
+
+/* ##################### MEDIA QUERISE ######################### */
+
+@media (max-width:760px){
+    
+}

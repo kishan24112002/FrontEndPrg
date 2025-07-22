@@ -1,0 +1,46 @@
+body{
+    box-sizing: border-box;
+    margin: 130px auto;
+}
+.box-wrapper{
+    width: 2000px;
+    height: 1000px;
+    margin: 0 auto;
+    background-color: #ED008C;
+}
+.header{
+    width: 100%;
+    height: 200px;
+    background-color: #2E3192;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-box1{
+    width: 90%;
+    height: 70%;
+    background-color: #ED1B24;
+}
+.section{
+    width: 100%;
+    height: 600px;
+    background-color: #440E62;
+    display: flex;
+    flex-wrap: wrap;
+}
+.section-box1{
+    width: 50%;
+    height: 50%;
+    background-color: #7C0046;
+}
+.section-box2{
+    width: 50%;
+    height: 50%;
+    background-color: #F36523;
+}
+.section-box3{
+    width: 50%;
+    height: 50%;
+    background-color: #00A652;
+}
+

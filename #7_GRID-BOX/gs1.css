@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    max-width: 1440px;
+    border: 2px solid red;
+    margin: 100px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+.item{
+    background-color: lightseagreen;
+    color: #fff;
+    padding: 10px;
+    border: 2px solid black;
+}

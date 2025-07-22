@@ -1,0 +1,17 @@
+.ps1{
+    text-align: center;
+    font-size: 50px;
+    color: brown;
+}
+
+#box{
+    background-color: blue;
+}
+
+.heading{
+    color: red;
+}
+
+button{
+    background-color: green;
+}

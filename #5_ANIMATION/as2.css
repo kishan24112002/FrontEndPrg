@@ -1,0 +1,40 @@
+.box{
+    width: 50px;
+    height: 50px;
+    background-color: lightcoral;
+    border-radius: 50%;
+    animation-name: move;
+    position: relative;
+    animation-duration: 5s;
+    /* animation-iteration-count: 2; */
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+@keyframes move{
+    0%{
+        top: 0;
+        left: 0;
+        background-color: lightblue;
+    }
+    25%{
+        top: 0;
+        left: 500px;
+        background-color: lightgoldenrodyellow;
+    }
+    50%{
+        top: 500px;
+        left: 500px;
+        background-color: lightgreen;
+    }
+    75%{
+        top: 500px;
+        left: 0;
+        background-color: lightseagreen;
+    }
+    100%{
+        top: 0;
+        left: 0;
+        background-color: lime;
+    }
+}

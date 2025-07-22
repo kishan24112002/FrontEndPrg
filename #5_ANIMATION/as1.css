@@ -1,0 +1,40 @@
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: bg-color;
+    animation-duration: 5s;
+    animation-delay: 5s;
+    /* animation-iteration-count: 2; */
+    animation-fill-mode: forwards;
+}
+
+@keyframes bg-color{
+    from{
+        background-color: red;
+    }
+    to{
+        background-color: aqua;
+    }
+}
+
+.box2{
+    width: 15px;
+    height: 10px;
+    background-color: blue;
+    animation-name: line;
+    animation-duration: 6s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+    animation-direction: reverse;
+
+}
+
+@keyframes line{
+    from{
+        width: 0px;
+    }
+    to{
+        width: 100%;
+    }
+}
