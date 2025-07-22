@@ -1,0 +1,31 @@
+
+/* link, visited, hover, active */
+
+/* a:hover{
+    color: purple;
+} */
+
+a:link{
+    color: orangered;
+}
+
+a:visited{
+    color: chartreuse;
+}
+
+a:hover{
+    color: gray;
+}
+
+a:active{
+    color: blue;
+}
+
+/* ############################################################################3 */
+
+
+input:focus{
+    padding: 20px;
+    outline: none;
+    border: 2px solid red;
+}

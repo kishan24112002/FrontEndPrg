@@ -1,0 +1,32 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.homepage{
+    width: 1250px;
+    margin: 5px auto;
+}
+
+li{
+    display: inline;
+    padding: 15px;
+    
+}
+
+.list{
+    background-color: #cdcdcd;
+    padding: 15px;
+    text-align: center;
+}
+
+a{
+    text-decoration-line: none;
+    border-bottom: 2px solid black;
+    padding-bottom: 5PX;
+    color: black;
+}
+
+.line{
+    border-bottom: 1px solid black;
+}
+

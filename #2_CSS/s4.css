@@ -1,0 +1,43 @@
+/* *{
+    color: burlywood;
+} */
+
+header{
+    background-color: #f0abab;
+}
+
+section.my-articles{
+    background-color: #f2e2e2;
+}
+
+/* p{
+    color: red;
+} */
+
+header p{
+    color: aquamarine;
+}
+
+li a{
+    color: chartreuse;
+}
+
+/* section.my-articles h2{
+    color: crimson;
+} */
+
+section.my-articles > h2{
+    color: yellow;
+}
+
+/* h2+p{
+    color: orange;
+} */
+
+section.my-articles h2+p{
+    color: blueviolet;
+}
+
+ul+p{
+    color: blue;
+}

@@ -1,0 +1,36 @@
+/* p:first-child{
+    color: darkcyan;
+} */
+
+/* p:first-of-type{
+    color: aquamarine;
+} */
+
+/* p:last-child{
+    color: blue;
+} */
+
+/* p:last-of-type{
+    color: cadetblue;
+} */
+
+/* p:nth-child(2){
+    color: brown;
+} */
+
+/* p:nth-child(2n){
+    color: brown;
+} */
+
+/* p:nth-of-type(2){
+    color: red;
+} */
+
+/* body header:not(p){
+    color: red;
+} */
+
+p::first-letter{
+    font-size: 44px;
+    color: red;
+}

@@ -1,0 +1,21 @@
+.website{
+    margin: 0px 120px;
+}
+
+h1{
+    border: 2px solid #cdcdcd;
+    background-color: #cdcdcd;
+    padding: 10px;
+    text-align: center;
+}
+
+.box-1{
+    border: 2px solid #cdcdcd;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+.box-2{
+    border: 2px solid #cdcdcd;
+    padding: 10px;
+}

@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+}
+
+.fav-musicians{
+    border: 10px solid lightgreen;
+}
+
+.mozart{
+    width: 25%;
+    background-color: aquamarine;
+    float: left;
+    padding: 20px;
+}
+
+.beethoven{
+    width: 25%;
+    background-color: aqua;
+    float: left;
+    padding: 20px;
+}
+
+.bath{
+    width: 25%;
+    background-color: blueviolet;
+    float: left;
+    padding: 20px;
+}
+
+.pagalili{
+    width: 25%;
+    background-color: lightcoral;
+    float: left;
+    padding: 20px;
+}
+
+.fav-musicians::after{
+    content: "";
+    display: block;
+    clear: both;
+}

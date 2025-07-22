@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Table size-1</title>
+    <style>
+        table, th, td {
+        border:2px solid black;
+        }
+		th, td {
+		padding: 10px;
+		}
+		table {
+		border-spacing: 30px;
+		}
+		<!-- tr:nth-child(even) {
+		background-color: #D6EEEE
+		} -->
+		th:nth-child(even),td:nth-child(even) {
+		background-color: #D6EEEE;
+		}
+		<!--tr {
+		border-bottom: 1px solid #ddd;
+		}-->
+		tr:hover {background-color: #000;}
+    </style>	
+</head>
+<body>
+    <h2>Set the first column to 70% of the table width</h2>
+
+    <table>
+      <tr>
+        <th style="width: 70%;">Firstname</th>
+        <th>Lastname</th> 
+        <th>Age</th>
+      </tr>
+      <tr style="text-align: right;">
+        <td>Jill</td>
+        <td>Smith</td>
+        <td>50</td>
+      </tr>
+      <tr style="height: 100px;">
+        <td>Eve</td>
+        <td>Jackson</td>
+        <td>94</td>
+      </tr>
+      <tr>
+        <td>John</td>
+        <td>Doe</td>
+        <td>80</td>
+      </tr>
+    </table> <br><br><br>
+
+    <table style="width:100%">
+        <tr>
+          <th>Firstname</th>
+          <td>Jill</td>
+          <td>Eve</td>
+        </tr>
+        <tr>
+          <th rowspan="2">Lastname</th>
+          <td>Smith</td>
+          <td>Jackson</td>
+        </tr>
+        <tr>  
+          <td>50</td>
+          <td>94</td>
+        </tr>
+      </table><br><br><br>
+
+      <table style="width:100%">
+        <tr>
+          <caption>Monthly savings</caption>
+          <th colspan="2">Name</th>
+          <th>Age</th>
+        </tr>
+        <tr>
+          <td>Jill</td>
+          <td>Smith</td>
+          <td>50</td>
+        </tr>
+        <tr>
+          <td>Eve</td>
+          <td>Jackson</td>
+          <td>94</td>
+        </tr>
+      </table>
+</body>
+</html>

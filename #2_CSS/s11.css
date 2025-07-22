@@ -1,0 +1,22 @@
+body{
+    color: blue;
+}
+
+.container1{
+    color: blueviolet;
+}
+
+.container2{
+    color: palegreen;
+}
+
+h1{
+    color: brown;
+    background: lightgoldenrodyellow;
+    text-align: center;
+    /* width: 500px; */
+}
+
+p{
+    
+}
